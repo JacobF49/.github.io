@@ -14,6 +14,7 @@ header img {
 
 header {
     border-bottom: 1px solid white;
+    font-weight: bold;
 }
 
 /* flexing */
@@ -27,10 +28,12 @@ h1 {
     font-size: 32px;
     line-height: 100px;
     margin-left: 8px;
+    color: rgb(0, 128, 255);
 }
 
 h2 {
     font-size: 24px;
+    text-align: center;
 }
 
 p {
@@ -68,17 +71,25 @@ ul {
 
 /* "button" styling */
 .flex p {
-    padding: 10px;
-    background-color: lime;
+    display: flex;
+    flex: auto;
+    padding: 50px;
+    background-color: rgb(0, 128, 255);
     margin: 32px;
 }
 
 .flex p:hover {
-    background-color: orange;
+    background-color: rgb(0, 42, 255);
     cursor: pointer;
 }
 
+
+
 span {
     color: yellow;
+}
+
+#calculated-cost {
+    color: green;
 }
 
